@@ -9,3 +9,6 @@ target = "thumbv7m-none-eabi"
 
 [env]
 DEFMT_LOG = "info"
+
+[alias]
+flashme = "flash --release --chip STM32F103C8Tx"

@@ -16,4 +16,6 @@ version = "0.11.0"
 features = ["stm32f103", "medium"]
 
 [[bin]]
+name = "blanky"
 test = false
+bench = false
